@@ -45,7 +45,7 @@ describe('Test Table', () => {
     });
 });
 
-describe('Test Expressions', () => {
+describe('Test Expressions', () =>{
     it('is processing left and right side member expression correctly', () => {
         assert.equal(
             JSON.stringify(createArray(parseCode('a[x]=2;\nx=a[0];'))),
